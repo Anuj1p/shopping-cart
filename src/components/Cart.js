@@ -47,7 +47,7 @@ const Cart = ({ state, dispatch }) => {
                             <img 
                                 src ={prod.thumbnail} 
                                 style={{width:70, objectFit:'cover'}}
-                                alt="product-image"    
+                                alt="product"    
                             />
                             <div style={{display: "flex", flexDirection: "column"}}>
                                 <span>{prod.title}</span>
