@@ -44,7 +44,11 @@ const Cart = ({ state, dispatch }) => {
                                 justifyContent:'space-between'
                             }}
                         >
-                            <img src ={prod.thumbnail} style={{width:70, objectFit:'cover'}}/>
+                            <img 
+                                src ={prod.thumbnail} 
+                                style={{width:70, objectFit:'cover'}}
+                                alt="product-image"    
+                            />
                             <div style={{display: "flex", flexDirection: "column"}}>
                                 <span>{prod.title}</span>
                                 <b>$ {prod.price}</b>
